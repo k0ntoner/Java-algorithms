@@ -2,6 +2,8 @@ package structures.commands;
 
 
 import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class TreeConfigCommand implements  Command{
@@ -9,6 +11,7 @@ public class TreeConfigCommand implements  Command{
     @Override
     public void execute() {
         Scanner scanner = new Scanner(System.in);
+
 
         System.out.println("Enter type of data for tree:");
 

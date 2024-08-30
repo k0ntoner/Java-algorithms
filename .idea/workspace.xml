@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15770d89-f133-4a27-b526-1f24fdd7cb47" name="Changes" comment="і">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B-tree training.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures/Arrays/CustomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures/commands/TreeConfigCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures/configs/TreeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures/heaps/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures/heaps/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures/nodes/BNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/structures/Arrays/CustomListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-tree training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/B-tree training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/Arrays/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/Arrays/CustomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/commands/TreeConfigCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/commands/TreeConfigCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -46,21 +37,130 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Andrew/Documents/GitHub/B-tree training/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.All in B-tree training.executor": "Run",
+    "JUnit.CustomListTest.QuickSorting.executor": "Debug",
+    "JUnit.CustomListTest.add.executor": "Debug",
+    "JUnit.CustomListTest.bubbleSorting.executor": "Run",
+    "JUnit.CustomListTest.executor": "Debug",
+    "JUnit.CustomListTest.mergeSorting.executor": "Debug",
+    "JUnit.CustomListTest.selectionSorting.executor": "Run",
+    "JUnit.structures.Arrays in B-tree training.executor": "Debug",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Andrew/Documents/GitHub/B-tree training/lib/apiguardian-api-1.1.2.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Andrew/Documents/GitHub/B-tree training/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="structures.Arrays" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomListTest.QuickSorting">
+    <configuration name="All in B-tree training" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B-tree training" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B-tree training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="structures.Arrays" />
+      <option name="MAIN_CLASS_NAME" value="structures.Arrays.CustomListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomListTest.QuickSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B-tree training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="structures.Arrays" />
+      <option name="MAIN_CLASS_NAME" value="structures.Arrays.CustomListTest" />
+      <option name="METHOD_NAME" value="QuickSorting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomListTest.mergeSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B-tree training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="structures.Arrays" />
+      <option name="MAIN_CLASS_NAME" value="structures.Arrays.CustomListTest" />
+      <option name="METHOD_NAME" value="mergeSorting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomListTest.selectionSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B-tree training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="structures.Arrays" />
+      <option name="MAIN_CLASS_NAME" value="structures.Arrays.CustomListTest" />
+      <option name="METHOD_NAME" value="selectionSorting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomListTest.QuickSorting" />
+        <item itemvalue="JUnit.CustomListTest.mergeSorting" />
+        <item itemvalue="JUnit.CustomListTest" />
+        <item itemvalue="JUnit.All in B-tree training" />
+        <item itemvalue="JUnit.CustomListTest.selectionSorting" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,11 +179,286 @@
       <updated>1724786164238</updated>
       <workItem from="1724786165301" duration="2100000" />
       <workItem from="1724846316401" duration="6366000" />
-      <workItem from="1724871897750" duration="856000" />
+      <workItem from="1724871897750" duration="2923000" />
+      <workItem from="1724918715318" duration="5666000" />
+      <workItem from="1724934273702" duration="1174000" />
+      <workItem from="1724935464571" duration="8130000" />
+      <workItem from="1724958713116" duration="2267000" />
+      <workItem from="1725004722856" duration="3807000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>31</line>
+          <properties class="structures.Arrays.CustomList" method="iterator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>47</line>
+          <properties class="structures.Arrays.CustomList" method="toArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>52</line>
+          <properties class="structures.Arrays.CustomList" method="toArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>67</line>
+          <properties class="structures.Arrays.CustomList" method="remove">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>77</line>
+          <properties class="structures.Arrays.CustomList" method="containsAll">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>82</line>
+          <properties class="structures.Arrays.CustomList" method="addAll">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>87</line>
+          <properties class="structures.Arrays.CustomList" method="addAll">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>92</line>
+          <properties class="structures.Arrays.CustomList" method="removeAll">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>97</line>
+          <properties class="structures.Arrays.CustomList" method="retainAll">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>102</line>
+          <properties class="structures.Arrays.CustomList" method="clear">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>110</line>
+          <properties class="structures.Arrays.CustomList" method="get">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>119</line>
+          <properties class="structures.Arrays.CustomList" method="set">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>127</line>
+          <properties class="structures.Arrays.CustomList" method="add">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>136</line>
+          <properties class="structures.Arrays.CustomList" method="remove">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>146</line>
+          <properties class="structures.Arrays.CustomList" method="indexOf">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>170</line>
+          <properties class="structures.Arrays.CustomList" method="subList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>179</line>
+          <properties class="structures.Arrays.CustomList" method="checkIndex">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>189</line>
+          <properties class="structures.Arrays.CustomList" method="checkIndexForAdd">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>199</line>
+          <properties class="structures.Arrays.CustomList" method="ensureCapacity">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>213</line>
+          <properties class="structures.Arrays.CustomList" method="bubbleSorting">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>234</line>
+          <properties class="structures.Arrays.CustomList" method="selectionSorting">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>255</line>
+          <properties class="structures.Arrays.CustomList" method="insertionSorting">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>352</line>
+          <properties class="structures.Arrays.CustomList" method="mergeSorting">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>323</line>
+          <properties class="structures.Arrays.CustomList" method="mergeSorting">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>298</line>
+          <properties class="structures.Arrays.CustomList" method="merge">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>286</line>
+          <properties class="structures.Arrays.CustomList" method="divide">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/structures/Arrays/CustomListTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/structures/Arrays/CustomListTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/structures/Arrays/CustomListTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/structures/Arrays/CustomListTest.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/structures/Arrays/CustomListTest.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/structures/Arrays/CustomList.java</url>
+          <line>429</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
